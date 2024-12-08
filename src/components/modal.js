@@ -1,12 +1,9 @@
-// modal.js
-
 const MODAL_ANIMATION_DURATION = 600;
 
 export function openModal(popup) {
     popup.classList.add('popup_is-animated', 'popup_is-opened');
     popup.style.visibility = 'visible';
     popup.style.opacity = '1';
-
     document.addEventListener('keydown', handleEscClose);
 }
 
