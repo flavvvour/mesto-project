@@ -12,7 +12,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'main.[contenthash].js',  // Хеширование имени JS файла для предотвращения кэширования
-    publicPath: '/',  // Используется для указания базового пути для всех ресурсов
+    publicPath: '/mesto-project/',  // Используется для указания базового пути для всех ресурсов
   },
   mode: 'production',  // Установить режим production для оптимизаций
   devServer: {
